@@ -86,7 +86,7 @@ const getWorkableTxs: Job['getWorkableTxs'] = async (args) => {
           workableGroups,
           correlationId: strategy,
         });
-      } catch (err: any) {
+      } catch (err: unknown) {
         // handle error logs
         const isExpectedError = expectedErrors.find((expectedError) => {
           return (err as TransactionError).message?.includes(expectedError);
@@ -95,7 +95,7 @@ const getWorkableTxs: Job['getWorkableTxs'] = async (args) => {
         if (!isExpectedError) {
           strategyConsole.warn(`Strategy #${strategyIndex} failed with unknown error`, {
             strategy,
-            message: err.message,
+            message: (err as Error).message,
           });
         } else {
           strategyConsole.log(`Strategy #${strategyIndex} is not workable`, { strategy });
