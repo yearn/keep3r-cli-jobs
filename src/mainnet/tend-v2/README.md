@@ -1,4 +1,4 @@
-# Yearn Tend V2
+# Yearn Tend V2 Keep3r CLI Job
 
 Tends Yearn strategies.
 

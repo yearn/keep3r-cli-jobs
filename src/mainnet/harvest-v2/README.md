@@ -1,4 +1,4 @@
-# Yearn Harvest V2
+# Yearn Harvest V2 Keep3r CLI Job
 
 Harvests Yearn strategies using stealth transactions.
 
