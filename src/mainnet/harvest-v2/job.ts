@@ -59,20 +59,18 @@ const getWorkableTxs: Job['getWorkableTxs'] = async (args) => {
 
       try {
         // check if strategy is workable
-        await stealthRelayer.connect(args.keeperAddress).callStatic.execute(job.address, workData, stealthHash, args.advancedBlock, {
+        await stealthRelayer.callStatic.execute(job.address, workData, stealthHash, args.advancedBlock, {
           blockTag: args.advancedBlock,
         });
 
         strategyConsole.log(`Strategy #${strategyIndex} is workable`, { strategy });
 
         // create work tx
-        const tx = await stealthRelayer
-          .connect(args.keeperAddress)
-          .populateTransaction.execute(job.address, workData, stealthHash, args.targetBlock + index, {
-            nonce: args.keeperNonce,
-            gasLimit: 5_000_000,
-            type: 2,
-          });
+        const tx = await stealthRelayer.populateTransaction.execute(job.address, workData, stealthHash, args.targetBlock + index, {
+          nonce: args.keeperNonce,
+          gasLimit: 5_000_000,
+          type: 2,
+        });
 
         // create a workable group every bundle burst
         const workableGroups: JobWorkableGroup[] = new Array(args.bundleBurst).fill(null).map((_, index) => ({

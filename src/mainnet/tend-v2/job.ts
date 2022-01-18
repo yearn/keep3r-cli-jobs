@@ -39,14 +39,14 @@ const getWorkableTxs: Job['getWorkableTxs'] = async (args) => {
 
     try {
       // check if strategy is workable
-      await job.connect(args.keeperAddress).callStatic.workForTokens(strategy, {
+      await job.callStatic.workForTokens(strategy, {
         blockTag: args.advancedBlock,
       });
 
       strategyConsole.log(`Strategy #${index} is workable`, { strategy });
 
       // create work tx
-      const tx = await job.connect(args.keeperAddress).populateTransaction.workForTokens(strategy, {
+      const tx = await job.populateTransaction.workForTokens(strategy, {
         nonce: args.keeperNonce,
         gasLimit: 1_000_000,
         type: 2,
