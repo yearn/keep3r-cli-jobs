@@ -4,7 +4,7 @@ Harvests Yearn strategies using stealth transactions.
 
 ## Config path
 
-`node_modules/@yfi/keep3r-cli-jobs/dist/mainnet/src/harvest-v2`
+`node_modules/@yfi/keep3r-cli-jobs/dist/src/mainnet/harvest-v2`
 
 ## Keeper Requirements
 

@@ -4,6 +4,6 @@
 
 This repository contains the scripts to run the following jobs of Yearn:
 
-- [Harvest-V2](https://github.com/yearn/keep3r-cli-jobs/blob/src/mainnet/harvest-v2/README.md)
-- [Tend-V2](https://github.com/yearn/keep3r-cli-jobs/blob/src/mainnet/tend-v2/README.md)
-- [Tend-V2 (Beta)](https://github.com/yearn/keep3r-cli-jobs/blob/src/mainnet/tend-v2-beta/README.md)
+- [Harvest-V2](https://github.com/yearn/keep3r-cli-jobs/blob/main/src/mainnet/harvest-v2/README.md)
+- [Tend-V2](https://github.com/yearn/keep3r-cli-jobs/blob/main/src/mainnet/tend-v2/README.md)
+- [Tend-V2 (Beta)](https://github.com/yearn/keep3r-cli-jobs/blob/main/src/mainnet/tend-v2-beta/README.md)
