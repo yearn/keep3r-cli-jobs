@@ -4,7 +4,7 @@ Tends Yearn strategies.
 
 ## Config path
 
-`node_modules/@yfi/keep3r-cli-jobs/dist/mainnet/src/tend-v2-2`
+`node_modules/@yfi/keep3r-cli-jobs/dist/mainnet/src/tend-v2-beta`
 
 ## Keeper Requirements
 

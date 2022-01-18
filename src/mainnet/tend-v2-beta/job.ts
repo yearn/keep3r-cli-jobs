@@ -19,7 +19,7 @@ const getWorkableTxs: Job['getWorkableTxs'] = async (args) => {
 
   // setup job with default fork provider
   const signer = args.fork.ethersProvider.getSigner(args.keeperAddress);
-  const { tend2Job: job } = getMainnetSdk(signer);
+  const { tendJobBeta: job } = getMainnetSdk(signer);
 
   // get strategies to work
   const strategies: string[] = args.retryId ? [args.retryId] : await job.strategies();
