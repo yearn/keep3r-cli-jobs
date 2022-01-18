@@ -1,4 +1,4 @@
-[![image](https://img.shields.io/npm/v/@yearn/keep3r-cli-jobs.svg?style=flat-square)](https://www.npmjs.org/package/@yearn/keep3r-cli-jobs)
+[![image](https://img.shields.io/npm/v/@yfi/keep3r-cli-jobs.svg?style=flat-square)](https://www.npmjs.org/package/@yfi/keep3r-cli-jobs)
 
 # Yearn Keep3r CLI Jobs
 
