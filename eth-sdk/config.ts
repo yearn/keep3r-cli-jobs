@@ -1,13 +1,13 @@
 import { defineConfig } from '@dethcrypto/eth-sdk';
 
 export default defineConfig({
-	outputPath: 'src/eth-sdk-build',
-	contracts: {
-		goerli: {
-			jobA: '0xd50345ca88e0B2cF9a6f5eD29C1F1f9d76A16C3c',
-			jobAStealth: '0x9DC52d978290f13b73692C5AeA21B4C8954e909A',
-			stealthRelayer: '0xD44A48001A4BAd6f23aD8750eaD0036765A35d4b',
-			jobStrategies: '0x8CeA64dc82515D56c22d072167Da44Abd3211B6f',
-		},
-	},
+  outputPath: 'src/eth-sdk-build',
+  contracts: {
+    mainnet: {
+      harvestJob: '0x2150b45626199CFa5089368BDcA30cd0bfB152D6',
+      tendJob: '0x2ef7801c6A9d451EF20d0F513c738CC012C57bC3',
+      tend2Job: '0xf72D7E44ec3F79379912B8d0f661bE954a101159',
+      stealthRelayer: '0x0a61c2146A7800bdC278833F21EBf56Cd660EE2a',
+    },
+  },
 });
