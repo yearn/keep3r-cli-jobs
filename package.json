@@ -1,6 +1,6 @@
 {
   "name": "@yearn/keep3r-cli-jobs",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Yearn Keep3r CLI Jobs",
   "keywords": [
     "keep3r",
