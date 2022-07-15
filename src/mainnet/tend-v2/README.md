@@ -14,6 +14,6 @@ Tends Yearn strategies.
 
 ## Useful Links
 
-* [Job](https://etherscan.io/address/0x2ef7801c6A9d451EF20d0F513c738CC012C57bC3)
+* [Job](https://etherscan.io/address/0xcd7f72f12c4b87dabd31d3aa478a1381150c32b3)
 * [Job docs](https://github.com/yearn/keep3r-jobs/blob/master/doc/TendV2Keep3rJob.md)
-* [Keep3r V1](https://etherscan.io/address/0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44)
+* [Keep3r V2](https://etherscan.io/address/0xeb02addCfD8B773A5FFA6B9d1FE99c566f8c44CC)

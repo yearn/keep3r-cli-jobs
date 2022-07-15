@@ -12,7 +12,32 @@ This repository contains the scripts to run Yearn's jobs.
 yarn add @yfi/keep3r-cli-jobs
 `
 
+- To run both Yearn Strategies versions (v1 and v2) change the package json to:
+```
+"@yfi/keep3r-cli-jobs": "@yfi/keep3r-cli-jobs@1.0.1"
+"@yfi/keep3r-v2-cli-jobs": "@yfi/keep3r-cli-jobs@1.1.0"
+```
+
+
 - Add the jobs to you configuration file
+
+```
+    {
+        ...
+        "jobs" : [
+            ...,
+            {
+                "path": "node_modules/@yfi/keep3r-cli-jobs/dist/src/mainnet/harvest-v2"
+            },
+            {
+                "path": "node_modules/@yfi/keep3r-cli-jobs/dist/src/mainnet/tend-v2"
+            }
+        ]
+    }
+```
+
+- Or add both versions for coexistence
+
 
 ```
     {
@@ -27,6 +52,12 @@ yarn add @yfi/keep3r-cli-jobs
             },
             {
                 "path": "node_modules/@yfi/keep3r-cli-jobs/dist/src/mainnet/tend-v2-beta"
+            },
+            {
+                "path": "node_modules/@yfi/keep3r-v2-cli-jobs/dist/src/mainnet/harvest-v2"
+            },
+            {
+                "path": "node_modules/@yfi/keep3r-v2-cli-jobs/dist/src/mainnet/tend-v2"
             }
         ]
     }
@@ -39,7 +70,3 @@ For further information about the jobs, follow the individual guides:
 
 - [Harvest-V2](https://github.com/yearn/keep3r-cli-jobs/blob/main/src/mainnet/harvest-v2/README.md)
 - [Tend-V2](https://github.com/yearn/keep3r-cli-jobs/blob/main/src/mainnet/tend-v2/README.md)
-- [Tend-V2 (Beta)](https://github.com/yearn/keep3r-cli-jobs/blob/main/src/mainnet/tend-v2-beta/README.md)
-
-
-

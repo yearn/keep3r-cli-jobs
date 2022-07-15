@@ -16,9 +16,9 @@ Harvests Yearn strategies using stealth transactions.
 
 ## Useful Links
 
-* [Job](https://etherscan.io/address/0x2150b45626199CFa5089368BDcA30cd0bfB152D6)
+* [Job](https://etherscan.io/address/0xe6dd4b94b0143142e6d7ef3110029c1dce8215cb)
 * [Job docs](https://github.com/yearn/keep3r-jobs/blob/master/doc/HarvestV2Keep3rStealthJob.md)
 * [Stealth Relayer](https://etherscan.io/address/0x0a61c2146A7800bdC278833F21EBf56Cd660EE2a)
 * [Stealth Vault](https://etherscan.io/address/0xde2fe402a285363283853bec903d134426db3ff7)
 * [Stealth Relayer & Vault docs](https://github.com/yearn/keep3r-jobs/blob/master/doc/working-stealth-jobs.md)
-* [Keep3r V1](https://etherscan.io/address/0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44)
+* [Keep3r V2](https://etherscan.io/address/0xeb02addCfD8B773A5FFA6B9d1FE99c566f8c44CC)
