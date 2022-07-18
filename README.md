@@ -14,8 +14,8 @@ yarn add @yfi/keep3r-cli-jobs
 
 - To run both Yearn Strategies versions (v1 and v2) change the package json to:
 ```
-"@yfi/keep3r-cli-jobs": "@yfi/keep3r-cli-jobs@1.0.1"
-"@yfi/keep3r-v2-cli-jobs": "@yfi/keep3r-cli-jobs@1.1.0"
+"@yfi/keep3r-cli-jobs": "npm:@yfi/keep3r-cli-jobs@1.0.1"
+"@yfi/keep3r-v2-cli-jobs": "npm:@yfi/keep3r-cli-jobs@1.1.0"
 ```
 
 
